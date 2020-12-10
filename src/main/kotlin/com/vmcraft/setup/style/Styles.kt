@@ -1,4 +1,4 @@
-package com.example.style
+package com.vmcraft.setup.style
 
 import javafx.scene.text.FontWeight
 import tornadofx.Stylesheet
@@ -14,7 +14,7 @@ class Styles : Stylesheet() {
     init {
         label and heading {
             padding = box(10.px)
-            fontSize = 20.px
+            fontSize = 16.px
             fontWeight = FontWeight.BOLD
         }
     }

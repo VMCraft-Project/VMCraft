@@ -6,9 +6,10 @@ import tornadofx.View
 import java.io.File
 
 
-class MainView : View("VMCraft") {
+class MainView : View("VMCraftSetup") {
     private val f = File("${FXML_PATH}MainView.fxml")
     override val root: BorderPane by fxml(f.inputStream())
+
 
     //按钮的点击事件
     fun onStartBtnClicked() {
